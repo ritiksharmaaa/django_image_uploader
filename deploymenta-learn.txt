@@ -1,0 +1,25 @@
+in this uploding https://youtu.be/jFFAGdBtrRc?si=CAPhT6sEVA_Q6lOx learn from there 
+
+
+here why in debug true all static file and media work fine . why 
+due to there is app install in static_app install in intalled app which handel us more of thing. 
+
+now came to termnolgy stati_url or media _url this tell how we call the static location in server example example.com/static/where is all static file or explple.com/media/
+
+
+nut where i can find media file and static file 
+
+we haVE STATIC_DIRS = []
+we have MEDIA_DIRS = []
+
+inside this we have to define where is actual our static file and mdia file is loacate ths is array  because here we have to tell where we can find your media file and static file 
+
+this helpp to static app in app install 
+
+what is static_root and media__roor // this actual tell after caling static where to see the file of static and media file . 
+
+here is cache that the if you are using collect static to store in the staticfile in you rproject dir but what if you moode to put some where so you cant take benifit of collect static 
+
+so staticFileDir = [ BASE /""STATIC" , BAES/Staticfiles]  // this only work for debug = true 
+
+for production you have to use STATIC_ROOT = base/staticfiles same for medai_root = base/'media'

@@ -123,6 +123,9 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
+# why wehave staticFileDIr= [ static_root , static ] by dfault in debug tri stati server from statifile app . so static root help to collect static on that  ariya . our code also know what to call in url to get that araea this may be can outside the main project even here we can give s3 and other things .
+
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
